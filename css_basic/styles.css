@@ -1,0 +1,29 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	display: flex;
+	flex: auto;
+	flex-direction: row;
+}
+
+article{
+	flex: 2;
+	overflow-y: auto;
+}
+aside{
+	flex: 1;
+	overflow-y: auto;
+}
+
+.changes{
+	color: white;
+	background: url('2.jpg');
+	height: 30vh;
+}
+
+.changes p{
+	padding: 100px 100px;
+}
