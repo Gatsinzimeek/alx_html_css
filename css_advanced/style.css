@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Source Sans Pro sans-serif;
+}
+
+.header{
+	width: 1448.15px;
+	height: 1055px;
+	background: url('images/Object.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navigation{
+	display: flex;
+	justify-content: space-around;
+
+}
+.logo{
+	width: 167.016px;
+	height: 29.461px;
+	padding-top: 15px;
+}
+
+.navbar ul{
+	list-style: none;
+}
+
+
+.navbar ul li{
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.navbar ul li a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.banner{
+	margin-top: 100px;
+	color: #fff;
+	padding-top: 20px;
+}
+.description{
+	text-align: center;
+}
+
+.description h1{
+	font-family: Source Sans Pro;
+	font-size: 110px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.description span{
+
+	font-family: Source Sans Pro;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.btn{
+	margin: 40px 0;
+}
+
+.btn button{
+	width: 162px;
+	height: 44px;
+	border-radius: 22px;
+	background: #C271FF;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+}
+
+.testmonial h4{
+	color: #FFF;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 160px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.test-pers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 100px;
+	padding: 0 140px;
+	width: 80%;
+}
+
+.test-box{
+	text-align: center;
+	width: 90%;
+}
+
+.test-box img{
+	border-radius: 50%;
+	margin-bottom: 13px;
+}
+.test-box h6{
+	font-size: 17px;
+	padding: 5px;
+}
+
+/* the Quotes section */
+.first-section{
+	display: flex;
+	justify-content: center;
+	background: #C271FF;
+	padding: 60px 10px;
+	width: 100%;
+}
+
+.first-section .descript{
+	padding-top: 30px;
+	width: 50%;
+	color: #fff;
+	font-size: 17px;
+	padding-left: 30px;
+}
+
+
+.first-section .descript h6{
+	padding-top: 10px;
+	font-size: 17px;
+
+}
+
+/* the video section */
+
+.video-sect h1{
+	text-align: center;
+	color: #071629;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.container-video{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+.video-box{
+
+	border-radius: 5px;
+	width: 255px;
+	height: 335px;
+	margin-left: 20px;
+}
+
+
+.video-box h4{
+	color: #071629;
+	font-size: 18px;
+	padding: 15px;
+	font-weight: 700;
+}
+.video-box p{
+	color: rgba(7, 22, 41, 0.50);
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	line-height: 24px;
+}
+
+.person-detail{
+	display: flex;
+}
+.person-detail img{
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+}
+
+.person-detail h6{
+	color: #C271FF;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 27px; 
+}
+
+.rating{
+	margin-top: 10px;
+	display: flex;
+}
+
+.rating img{
+	width: 107px;
+	height: 15px;
+	margin-top: 4px;
+}
+
+.rating p{
+	margin-left: 50px;
+	color: #C271FF;
+}
+
+
+/* Membership section */
+
+.Membership {
+	background: #071629;;
+	width: 100%;
+	height: 502px;
+	margin-top: 50px;
+}
+
+.Membership h2{
+	color: #FFF;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.member-container{
+	display: flex;
+	justify-content: center;
+}
+
+.smile{
+	width: 257px;
+	height: 153px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.smile h6 {color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 2.2rem;
+
+}
+.smile p{
+	line-height: 1.5rem;
+}
+
+.Membership button{
+	width: 162px;
+	height: 44px;
+	color: #FFF;
+	border: none;
+	font-size: 17px;
+	border-radius: 22px;
+	background: #C271FF;
+	margin: 40px 45%;
+}
+
+
+/* FAQ section */
+
+.faq-section{
+	margin: 70px auto;
+	width: 920px;
+	height: 707px;
+}
+.faq-section h1{
+	margin-bottom: 40px;
+	color: #071629;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.faq-container{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.faq-container div{
+	width: 350px;
+}
+
+.faq-container div p{
+	font-size: 17px;
+	line-height: 1.5rem;
+}
+
+.faq-container div h6{
+	font-size: 17px;
+	padding-bottom: 19px;
+}
+
+
+/* footer part */
+
+footer{
+	width: 100%;
+	height: 249px;
+	background: #071629;
+	text-align: center;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: center;
+	padding: 80px;
+}
+.footer-container div{
+	margin-right: 250px;
+	margin-left: 250px;
+}
+footer p{
+	color: #fff;
+	font-size: 17px;
+}
